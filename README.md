@@ -1,66 +1,27 @@
-## Foundry
+<!-- @format -->
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Master Contract Address: 0x646436d192A3E5c933E16Cda94e191a151FF7823
+Minimal Proxy Address: 0xc57f401eFE183DAb22Bb2cF02a2E061f7d912C9e
+Clone Address: 0x60Bef7e0ea29D4aB492d2c205d26bFE4F4740F38
 
-Foundry consists of:
+##### sepolia
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+✅ [Success]Hash: 0x0b223a6c29ac51f5ad1c324213f7242eb370ab7dfdf5421ad2c43c3c647834fb
+Contract Address: 0x351740b0c01466cfE791b307ecC32f091dda17ef
+Block: 6409108
+Paid: 0.000970677007715448 ETH (91641 gas \* 10.592169528 gwei)
 
-## Documentation
+##### sepolia
 
-https://book.getfoundry.sh/
+✅ [Success]Hash: 0x6dec25db31ba2be3fe8a3f68a7afe6f4572c9d0715815f332eeb4b8e65e1ab77
+Block: 6409108
+Paid: 0.000570557803795248 ETH (53866 gas \* 10.592169528 gwei)
 
-## Usage
+##### sepolia
 
-### Build
+✅ [Success]Hash: 0xe60ccb62a185982ee3dd65b5cd2f0e2acf6b99e684ed763ca058df5670c1cd7e
+Contract Address: 0x8c68D157690b901CD224ef7F2169b5fE78d5d0a0
+Block: 6409108
+Paid: 0.00140076145923036 ETH (132245 gas \* 10.592169528 gwei)
 
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+✅ Sequence #1 on sepolia | Total Paid: 0.002941996270741056 ETH (277752 gas \* avg 10.592169528 gwei)

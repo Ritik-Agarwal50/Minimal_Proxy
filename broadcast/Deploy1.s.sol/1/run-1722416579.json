@@ -1,0 +1,74 @@
+{
+  "transactions": [
+    {
+      "hash": null,
+      "transactionType": "CREATE",
+      "contractName": "Implementation",
+      "contractAddress": "0x646436d192a3e5c933e16cda94e191a151ff7823",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "from": "0xa76b88b26ab5682b8559e7b9689b14ef602fa08f",
+        "gas": "0x1d14b",
+        "value": "0x0",
+        "input": "0x6080604052348015600f57600080fd5b5060b180601d6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c80633fa4f24514603757806355241077146051575b600080fd5b603f60005481565b60405190815260200160405180910390f35b6061605c3660046063565b600055565b005b600060208284031215607457600080fd5b503591905056fea264697066735822122096ae211af3e2ced96f88ede6476f445085dc16db15b3ec0c9746373de84a2f4b64736f6c634300081a0033",
+        "nonce": "0x0",
+        "chainId": "0x1"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CREATE",
+      "contractName": "MinimalProxy",
+      "contractAddress": "0xc57f401efe183dab22bb2cf02a2e061f7d912c9e",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "from": "0xa76b88b26ab5682b8559e7b9689b14ef602fa08f",
+        "gas": "0x29f6c",
+        "value": "0x0",
+        "input": "0x6080604052348015600f57600080fd5b5061016d8061001f6000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c80638124b78e14610030575b600080fd5b61004361003e366004610107565b61005f565b6040516001600160a01b03909116815260200160405180910390f35b6000604051693d602d80600a3d3981f381528260601b60148201526e5af43d82803e903d91602b57fd5bf360288201526037816000f09150506001600160a01b0381166101025760405162461bcd60e51b815260206004820152602760248201527f4d696e696d616c50726f78793a204661696c656420746f2063726561746520696044820152666e7374616e636560c81b606482015260840160405180910390fd5b919050565b60006020828403121561011957600080fd5b81356001600160a01b038116811461013057600080fd5b939250505056fea2646970667358221220c93787cdcc775cc55ad7610aea7de17e1af1c9e28b8464594179a5e38fa00f3c64736f6c634300081a0033",
+        "nonce": "0x1",
+        "chainId": "0x1"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": "MinimalProxy",
+      "contractAddress": "0xc57f401efe183dab22bb2cf02a2e061f7d912c9e",
+      "function": "clone(address)",
+      "arguments": [
+        "0x646436d192A3E5c933E16Cda94e191a151FF7823"
+      ],
+      "transaction": {
+        "from": "0xa76b88b26ab5682b8559e7b9689b14ef602fa08f",
+        "to": "0xc57f401efe183dab22bb2cf02a2e061f7d912c9e",
+        "gas": "0x1229c",
+        "value": "0x0",
+        "input": "0x8124b78e000000000000000000000000646436d192a3e5c933e16cda94e191a151ff7823",
+        "nonce": "0x2",
+        "chainId": "0x1"
+      },
+      "additionalContracts": [
+        {
+          "transactionType": "CREATE",
+          "address": "0x60bef7e0ea29d4ab492d2c205d26bfe4f4740f38",
+          "initCode": "0x0000000000000000000000000000000000000000646436d192a3e5c933e16cda94e191a151ff7823000000000000000000000000000000"
+        }
+      ],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1722416579,
+  "chain": 1,
+  "commit": "7c36034"
+}
